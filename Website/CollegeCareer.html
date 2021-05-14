@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<head>
+   <title></title>
+   <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            padding-bottom: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        h1{
+            padding: 1%;
+            font-size: 350%;
+            background-color: rgba(0, 0, 0, 0.651);
+            color: white;
+            margin: 0;
+            width: 40%;
+            text-align: center;
+        }
+        body{
+            margin: 0;
+            height: 100%
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 1%;
+            padding-left: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+        li {
+            display: inline;
+        }
+        li a {
+            text-align: center;
+            background-color: black;
+            padding: 1%;
+            text-decoration: none;
+            font-size: larger;
+            color:white;
+        }
+        li a:hover {
+            background-color: rgb(199, 26, 26);
+        }
+        div.content{
+            min-height: 100%;
+            flex-grow: 1;
+            margin: 2%;
+        }
+        div.footer-menu {
+            padding: 4%;
+            background-color: black;
+            text-align: center;
+            font-size: small;
+            flex-shrink: 0;
+        }
+        div.footer-menu li a{
+            padding: 3%;
+        }
+        table.header {
+            border-collapse: collapse;
+        }
+        table.header td {
+            padding: 0;
+            background-color: black;
+        }
+        td.backimage {
+            background-color: rgba(0, 0, 0, 0.952);
+            background-image: url(https://ftw.usatoday.com/wp-content/uploads/sites/90/2018/09/gty_1038817888.jpg?w=1000&h=600&crop=1);
+            background-position: center;
+            background-size: cover;
+        }
+        hr {
+            margin: 0.3px;
+            ;
+        }
+        div.content table{
+            padding-top: 1%;
+            margin: 1%;
+        }
+       
+   </style>
+</head>
+<body>
+    <div class="menu"></div>
+        <table class="header">
+            <tr>
+                <td width=18%><img width="100%" height="auto" src=https://i.pinimg.com/originals/c0/7c/f3/c07cf3494c67fc9f8a5b1ac9539029d0.png></td>
+                <td class="backimage"><h1>Tiger Woods</h1></td>
+            </tr>
+        </table>
+
+        <hr color=white>
+    
+        <nav>
+            <ul>
+                <li><a href = "Home.html">Home</a></li>
+                <li><a href = "CollegeCareer.html">College Career</a></li>
+                <li><a href = "ProfessionalCareer.html">Professional Career</a></li>
+                <li><a href = "Records.html">Records</a></li>
+                <li><a href = "About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                    <img src="data:image/jpeg;base64,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">
+                </td>
+                <td>
+                    <p>
+                        Tiger ended up choosing to attend Stanford to compete as a student-athlete. In only two years at Stanford, Tiger 
+                        won a Stanford record tying 11 tournaments, including an incredible 8 wins in 13 starts in 1996. His 11 tournament wins is 
+                        tied for the most all-time despite only competing in college for two years. Woods was twice 
+                        named a 1st team All-American - in both 1995 & 1996. 
+                    </p>
+        
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                   <p>Tiger was the NCAA Division 1
+                    individual champion in 1996 and was named the Jack Nicklaus national player of the year.  Woods won roughly 42 
+                    percent of the tournaments he competed in while attending Stanford, winning 11 of the 26 he played. He also had 
+                    a school record round of 61 at the Pac-10 Championships and he finished at par or better in 27 of his 41 college 
+                    career rounds. His average while at Stanford stands as the third best school average to date.</p>
+                </td>
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5IIxguj43Foeqvx3sPFuc6y8I9UyurSugw&usqp=CAU">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href = "Home.html">Home</a></li>
+                    <li><a href = "CollegeCareer.html">College Career</a></li>
+                    <li><a href = "ProfessionalCareer.html">Professional Career</a></li>
+                    <li><a href = "Records.html">Records</a></li>
+                    <li><a href = "About.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+     
+</body>
+</html>
